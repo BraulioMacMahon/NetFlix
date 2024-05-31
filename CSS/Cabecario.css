@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    height: 900px;
+    background-image: url(../Imagens/AO-en-20240408-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    position: relative;
+
+}
+
+.banner::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(000, 000, 000, .70);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+
+.header-logo{
+    padding-left: 200px;
+}
+
+.header-logo img{
+    width: 250px;
+    height: 125;
+}
+
+.header-button{
+    padding-right: 200px;
+}
+
+
+.header-button button {
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(245, 236, 236);
+    
+}
+
+.banner-body{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    font-family: sans-serif;
+    z-index: 1;
+    padding-top: 300px;
+}
+
+.banner-body h1{
+    font-size: 4.5rem;
+    border:  transparent;
+    border-color: white;
+}
+
+.banner-body p1{
+    font-size: 1.6rem;
+
+}
+
+.banner-body p{
+    font-size: 1.9rem;
+}
+
+.banner-text-button{
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 500px 0px;
+}
+
+.banner-texto input{
+        width: 500px;
+        height: 60px;
+        background-color: rgba(39, 39, 39, 0.4);
+        border-color: rgb(160, 160, 163);
+        border-radius: 6px; 
+        border-width: 2px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 24px;
+}
+
+.banner-button button{
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    width: 225px;
+    height: 63px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 6px;
+}
+
+.separador{
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    height: 10px;
+}
+
+.banner2{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 180px;
+    padding-bottom: 100px;
+}
+
+
+
+.banner2_text h1{
+    font-family: sans-serif;
+    font-size: 65px;
+    color: white;
+}
+
+.banner2_text p{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 30px 0;
+}
+
+.banner3{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    paint-order: 50px 180px ;
+}
+
+.banner3_imagem{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.banner3_text{
+    font-family: sans-serif;
+    color: white;
+    padding: 0px 180px 0px 0px;
+}
+
+.banner3_text h1{
+    font-size: 65px;
+    padding: 30px 0;
+}
+
+.banner3_text p{
+    font-size: 35px;
+}
+
+.banner4{
+    font-family: sans-serif;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 100px 300px;
+}
+
+.banner4 h1{
+    font-size: 65px;
+}
+
+.banner4 p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.banner5{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 50px 180px;
+}
+
+.banner5_text{
+    color: white;
+    font-family: sans-serif;
+    padding-right: 150px;
+}
+
+.banner5_text h1{
+    font-size: 65px;
+}
+
+.banner5_text p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.banner6{
+    background-color: black;
+    color: white;
+}
+
+.banner7{
+    background-color: black;
+    color: white;
+    padding: 250px ;
+}
+.banner7_lingua{
+    width: 0px;
+    height: 0px;
+    font-family: sans-serif;
+    background-color: rgba(17, 17, 17, 0.5);
+    padding: 0px 0px 0px 0px;
+    
+
+}
+
+.lingua{
+    width: 130px;
+    height: 50px;
+    border-width: 2px;
+    border-radius: 10%;
+    color: white;
+    background-color: rgba(31, 31, 31, 0.658);
+}
+
+.links{
+    display: flex;
+    
+}
+
+.a1{
+    color: white;
+    padding: 100px;
+     margin-left: -300px;
+    
+}
+
+.a2{
+   color: white; 
+   padding: 100px;
+}
+
+a{
+    color: blue;   
+}
+.text-{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    font-family: sans-serif;
+    z-index: 1;
+    padding-top: 300px;
+    font-size: 1.6rem;
+}
